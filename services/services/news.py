@@ -4,7 +4,7 @@ import asyncio
 from xml.etree import ElementTree as ET
 from datetime import datetime, timezone, timedelta
 
-from services.tickers import TICKERS
+from tickers import TICKERS
 from services.cache import set_cache
 
 
